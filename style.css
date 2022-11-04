@@ -19,7 +19,7 @@
   
   /* A képed csak 800600 as amioker megivja a dispear classt*/
   .disppear{
-    animation: vanish 1s forwards;
+    animation: vanish 4s forwards;
     display: flex;
     justify-content: center;
     align-items: center;
