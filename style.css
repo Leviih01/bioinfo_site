@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+  /*Alap lodaer clars*/
+  .loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #0E111F;
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  /* A képed csak 800600 as amioker megivja a dispear classt*/
+  .disppear{
+    animation: vanish 1s forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0E111F;
+  
+  }
+@keyframes vanish {
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
