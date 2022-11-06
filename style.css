@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -16,6 +17,11 @@
     align-items: center;
   
   }
+
+  #navbar{
+  animation: appear 4s forwards;
+  
+  }
   
   /* A képed csak 800600 as amioker megivja a dispear classt*/
   .disppear{
@@ -32,4 +38,22 @@
     visibility: hidden;
   }
 }
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 100;}
+}
 
+#row1{
+  background-color: aqua;
+
+}
+#row2{
+  background-color: yellow;
+}
+
+#row3{
+  background-color: violet;
+}
+#faszom_container{
+  background-color: lime;
+}
