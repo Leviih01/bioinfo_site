@@ -1,8 +1,60 @@
 
-*{
-  margin: 0;
-  padding: 0;
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
 }
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+#levi_container{
+  position: absolute;
+  padding-top: 900  px;
+}
+
+@keyframes vanish {
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.disppear{
+  animation: vanish 4s forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0E111F;
+
+}
+
   /*Alap lodaer clars*/
   .loader{
     position: fixed;
@@ -17,43 +69,3 @@
     align-items: center;
   
   }
-
-  #navbar{
-  animation: appear 4s forwards;
-  
-  }
-  
-  /* A képed csak 800600 as amioker megivja a dispear classt*/
-  .disppear{
-    animation: vanish 4s forwards;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #0E111F;
-  
-  }
-@keyframes vanish {
-  100%{
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-@keyframes appear {
-  from {opacity: 0;}
-  to {opacity: 100;}
-}
-
-#row1{
-  background-color: aqua;
-
-}
-#row2{
-  background-color: yellow;
-}
-
-#row3{
-  background-color: violet;
-}
-#faszom_container{
-  background-color: lime;
-}
