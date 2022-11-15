@@ -60,7 +60,7 @@ body {
 }
 
 #container-right {
-  position: absolute;
+  position: relative;
   float: right;
   padding-top: 600px;
   font-size: 15px;
