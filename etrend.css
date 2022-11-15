@@ -74,7 +74,7 @@ text-overflow: clip;
 }
 #container-left2 {
   position: absolute;
-  float: left;
+  float: right;
   padding-top: 900px;
   font-size: 15px;
   
