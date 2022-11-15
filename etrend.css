@@ -73,8 +73,8 @@ word-wrap: break-word;
 text-overflow: clip;
 }
 #container-left2 {
-  position: absolute;
-  float: right;
+  position: relative;
+  float: left;
   padding-top: 900px;
   font-size: 15px;
   
